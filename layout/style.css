@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+html {
+    font-family: Ubuntu, sans-serif;
+}
+
+
+
+
+
+
+
+/* Default elements */
+.bl {
+    width: 100%;
+    min-height: 500px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: ;
+    justify-content: space-between;
+    align-items: center;
+}
+.el {
+/*    height: 50px;*/
+    width: 10%;
+    background-color: brown;
+    border: 1px solid blue;
+}
+.item__img {
+    width: 200px;
+}
+
+.item__title {
+    font-size: 24px;
+}
+
+.gal__item a {
+    text-decoration: none;
+}
+.gal__item a:hover {
+    text-decoration: underline;
+}
+
+.gal {
+    margin-top: 40px;
+}
+
+.gal__item {
+    margin-top: 20px;
+}
+
+.fl {
+    float: left;
+}
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.nav__item {
+    padding-left: 20px;
+}

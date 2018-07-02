@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple</title>
+    <style>
+        body {
+            background-image: url(img/space-bg.png);
+            background-repeat: repeat;
+        }
+        header, nav {
+        }
+        .header {
+            margin: 0px auto;
+            background-image: url(img/space-header.png);
+            width: 900px; height: 200px;
+        }
+        .menu {
+            margin: 0px auto;
+            background: #5e5b69;
+            opacity: 0.75;
+            width: 900px;
+            padding: 3px;
+        }
+        .menu__item a {
+            color: #c2c7e0;
+            text-decoration: none;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .menu__item a:hover {
+            text-decoration: underline;
+        }
+        .wrap {
+            margin: 0px auto;
+            width: 900px;
+            color: #fff;
+        }
+        .art {
+            background: rgba(95,91,106,0.5);
+            padding: 10px;
+            margin: 10px;
+        }
+        .art__img {
+            margin: 0px 20px;
+        }
+        footer {
+            width: 900px;
+            background: rgba(95,91,106,0.75);
+            margin: 0px auto;
+            color: #fff;
+            padding-left: 20px;
+        }
+        footer p {
+            padding: 10px;
+        }
+        .fl {
+            float: left;
+        }
+        .fr {
+            float: right;
+        }
+        .clearfix::after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="header__logo"></div>
+            <div class="header__desc"></div>
+        </div>
+    </header>
+    <nav>
+        <div class="menu">
+            <span class="menu__item"><a href="">Главная</a></span>
+            <span class="menu__item"><a href="">Портфолио</a></span>
+            <span class="menu__item"><a href="">Контакты</a></span>
+        </div>
+    </nav>
+    <main>
+        <div class="wrap">
+            <article class="art clearfix">
+                <img src="img/obs-1.png" alt="" class="art__img fl">
+                <h3 class="art__title">Обсерватория Гриффита</h3>
+                <p class="art__desc">Следующий планетарий мира вы наверняка видели, <br>
+даже, если никогда не бывали в Лос-Анджелесе. <br>
+Обсерваторию Гриффита на горе Голливуд с потрясающей<br>
+ панорамой на Тихий океан на город не раз показывали<br>
+ в кино, а планетарий входит в обсерваторию. </p>
+            </article>
+            <article class="art clearfix">
+                <img src="img/obs-2.png" alt="" class="art__img fr">
+                <h3 class="art__title">Космический центр МакМиллана</h3>
+                <p class="art__desc">Этот звездный театр – центр для проведения научных выставок, <br>
+зрелищных демонстраций и конференций. Даже само здание <br>
+Космического центра удивительно и напоминает приземлившуюся <br>
+летающую тарелку.</p>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <p>SVF 2018 &copy;</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,35 @@
+@import "normalize", "vars";
+
+html {
+  font-family: 'Ubuntu', sans-serif;
+  background: $beige;
+  color: $brown;
+}
+
+header {
+  background-color: $brown;
+  background-image: url("../img/header.png");
+  background-repeat: no-repeat;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+header {
+  margin: 0px auto;
+  //margin-top: -16px;
+  height: 400px;
+  width: 1100px;
+  position: relative;
+}
+.quote {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  margin: 10px;
+}
+p {
+  padding: 0px;
+  margin: 0px;
+}
